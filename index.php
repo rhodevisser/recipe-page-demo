@@ -1,6 +1,6 @@
 <?php
 
-$title = "A comfy, but luxurious version of oatmeal";
+$recipeOat = "oatmeal";
 
 $totalPreparationTime =[
     "10 minutes in total",

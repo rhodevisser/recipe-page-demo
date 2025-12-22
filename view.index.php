@@ -11,7 +11,7 @@
 
     <div class="container-recipe-content"> 
         <h1>
-            <?= $title ?>
+            <?= "A comfy, but luxurious version of {$recipeOat}" ?>
         </h1>
         <ul>
             <?php foreach ($totalPreparationTime as $preparationTime )  { ?>
