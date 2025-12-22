@@ -13,3 +13,9 @@ body {
     border-radius: 5%;
     padding: 1.25rem;
 }
+
+.ingredient-container {
+    background-color: #faf3f3;
+    padding: 1rem;
+    border-radius: 1rem;
+}
