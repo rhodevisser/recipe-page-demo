@@ -18,6 +18,20 @@
                 <li><?= $preparationTime; ?></li> 
             <?php } ?>
         </ul>
+
+        <div class="ingredient-container">
+            <h2>
+                Ingredients oats
+            </h2>
+            <ul class="ingredients">
+                <?php foreach ($filteredIngredients as $ingredient) : ?>
+                    <li><?= $ingredient['butter']; ?></li>
+                    <li><?= $ingredient['base']; ?></li>
+                    <li><?= $ingredient['secondBase']; ?></li>
+                    <li><?= $ingredient['spice']; ?></li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
     
 </body>
 </html>
