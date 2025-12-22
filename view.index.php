@@ -13,12 +13,11 @@
         <h1>
             <?= "A comfy, but luxurious version of {$recipeOat}" ?>
         </h1>
-        <ul>
-            <?php foreach ($totalPreparationTime as $preparationTime )  { ?>
+        <ul class="prepTime">
+            <?php foreach ($totalPreparationTime as $preparationTime)  { ?>
                 <li><?= $preparationTime; ?></li> 
             <?php } ?>
         </ul>
-    </div>
     
 </body>
 </html>
