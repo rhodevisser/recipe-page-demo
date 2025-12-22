@@ -1,0 +1,15 @@
+body {
+    background-color: blanchedalmond;
+    height: 100vh;
+}
+
+.container-recipe-content {
+    width: 50%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    margin-top: 6.25rem;
+    border-radius: 5%;
+    padding: 1.25rem;
+}

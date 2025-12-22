@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Simple Recipe's</title>
+</head>
+
+<body>
+
+    <div class="container-recipe-content"> 
+        <h1>
+            <?= $title ?>
+        </h1>
+        <ul>
+            <?php foreach ($totalPreparationTime as $preparationTime )  { ?>
+                <li><?= $preparationTime; ?></li> 
+            <?php } ?>
+        </ul>
+    </div>
+    
+</body>
+</html>
