@@ -33,6 +33,9 @@ $ingredients = [
 ];
 
 
+$filteredIngredients = array_filter($ingredients, function($ingredient){
+    return $ingredient['recipe'] === 'oats';
+});
 
 
 require "view.index.php";
