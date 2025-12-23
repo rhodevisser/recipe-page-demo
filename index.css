@@ -3,7 +3,6 @@ body {
     height: 100vh;
 }
 
-.container-recipe-content {
 .image-container {
     border-radius: 1rem;
     height: 18.75rem;
@@ -11,14 +10,15 @@ body {
     background-image: url('https://backcountryfoodie.com/wp-content/uploads/nut-butter-morning-oats-blog-thumbnail-image-hand.webp');
 }
 
+.recipe-content-container {
     width: 50%;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
     height: 100%;
-    margin-top: 6.25rem;
+    margin-top: 5rem;
     border-radius: 5%;
-    padding: 1.25rem;
+    padding: 2.50rem;
 }
 
 .ingredient-container {
