@@ -18,6 +18,14 @@
                 <li><?= $preparationTime; ?></li> 
             <?php } ?>
         </ul>
+    
+
+        <div class="intro-message">
+            <?php if ($recipeOat === "oatmeal") {
+                echo $messageOats;
+            } ?> 
+        </div>
+
 
         <div class="ingredient-container">
             <h2>

@@ -2,6 +2,10 @@
 
 $recipeOat = "oatmeal";
 
+$messageOats = "An easy and quick dish, with some extra attention to make it more comfy. This oatmeal combines
+the power of a bit fried and buttered dry oats, with a taste of cinnamon and cardemon.";
+
+
 $totalPreparationTime = [
     "10 minutes in total",
     "5 minutes preparation",
