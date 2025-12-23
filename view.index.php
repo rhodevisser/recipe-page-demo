@@ -38,7 +38,7 @@
         </div>
 
         <div class="ingredient-container">
-            <h2>
+            <h2 class="ingredient-title">
                 Ingredients oats
             </h2>
             <ul class="ingredients">
@@ -50,6 +50,7 @@
                 <?php endforeach; ?>
             </ul>
         </div>
-    
+    </div>
+
 </body>
 </html>
