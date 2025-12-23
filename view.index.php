@@ -9,15 +9,11 @@
 
 <body>
 
-    <div class="container-recipe-content"> 
+    <div class="recipe-content-container"> 
+
         <h1>
             <?= "A comfy, but luxurious version of {$recipeOat}" ?>
         </h1>
-        <ul class="prepTime">
-            <?php foreach ($totalPreparationTime as $preparationTime)  { ?>
-                <li><?= $preparationTime; ?></li> 
-            <?php } ?>
-        </ul>
     
 
         <div class="intro-message">
@@ -26,6 +22,16 @@
             } ?> 
         </div>
 
+        <div class="preptime-container">
+            <h2 class="preptime-title">
+                Preparation time
+            </h2>
+            <ul class="prepTime">
+                <?php foreach ($totalPreparationTime as $preparationTime)  { ?>
+                    <li><?= $preparationTime; ?></li> 
+                <?php } ?>
+            </ul>
+        </div>
 
         <div class="ingredient-container">
             <h2>
