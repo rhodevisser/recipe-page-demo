@@ -11,6 +11,10 @@
 
     <div class="recipe-content-container"> 
 
+    <div class="image-container"> 
+    
+    </div>
+
         <h1>
             <?= "A comfy, but luxurious version of {$recipeOat}" ?>
         </h1>
